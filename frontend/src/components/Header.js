@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
-import { Auth } from 'aws-amplify';
+import { Auth } from '@aws-amplify/auth';
 import '../styles/Header.css';
 
 const Header = ({ isAuthenticated, user }) => {

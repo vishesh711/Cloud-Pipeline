@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Auth, API } from 'aws-amplify';
+import { Auth } from '@aws-amplify/auth';
+import { API } from '@aws-amplify/api';
 import '../styles/Settings.css';
 
 const Settings = () => {

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { API } from 'aws-amplify';
+import { API } from '@aws-amplify/api';
 import '../styles/FileUpload.css';
 
 const FileUpload = ({ user }) => {

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, useNavigate, Link } from 'react-router-dom';
-import { API } from 'aws-amplify';
+import { useParams, Link, useNavigate } from 'react-router-dom';
+import { API } from '@aws-amplify/api';
 import '../styles/FileDetails.css';
 
 const FileDetails = () => {

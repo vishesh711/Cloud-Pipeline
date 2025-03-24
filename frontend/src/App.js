@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import { Amplify, Auth, Hub } from 'aws-amplify';
+import { Amplify } from 'aws-amplify';
+import { Auth } from '@aws-amplify/auth';
+import { Hub } from '@aws-amplify/core';
 import awsconfig from './aws-exports';
 
 // Components

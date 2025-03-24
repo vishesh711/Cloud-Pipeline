@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { API } from 'aws-amplify';
+import { API } from '@aws-amplify/api';
 import '../styles/FileList.css';
 
 const FileList = ({ user }) => {
