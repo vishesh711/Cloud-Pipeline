@@ -1,4 +1,4 @@
-# Full-Stack AWS Project
+# CloudPipeline: Event-Driven Serverless Document Processing Platform
 
 A scalable, event-driven web application built using AWS services with infrastructure defined as code through AWS CDK in TypeScript.
 
